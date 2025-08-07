@@ -1,19 +1,36 @@
-import button from "../code/button/button.html?raw";
-import cssButton from "../code/button/button.css?raw";
+import round from "../code/hover/button/round/index.html?raw";
+import cssRound from "../code/hover/button/round/index.css?raw";
+
+import iconArrow from "../code/hover/button/icon-arrow/index.html?raw";
+import cssIconArrow from "../code/hover/button/icon-arrow/index.css?raw";
 
 export default {
-  title: "Code/Button",
+  title: "Hover/Button",
 };
 
-export const Button01 = {
+export const Round = {
   render: () => `
-    <style>${cssButton}</style>
-    ${button}
+    <style>${cssRound}</style>
+    ${round}
   `,
   parameters: {
     sourceCode: [
-      { name: "HTML", code: button },
-      { name: "CSS", code: cssButton },
+      { name: "HTML", code: round },
+      { name: "CSS", code: cssRound },
     ],
   },
 };
+
+export const IconArrow = {
+  render: () => `
+    <style>${cssIconArrow}</style>
+    ${iconArrow}
+  `,
+  parameters: {
+    sourceCode: [
+      { name: "HTML", code: iconArrow },
+      { name: "CSS", code: cssIconArrow },
+    ],
+  },
+};
+

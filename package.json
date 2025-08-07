@@ -21,5 +21,8 @@
     "stylelint-config-recess-order": "^7.1.0",
     "stylelint-config-recommended": "^17.0.0",
     "vite": "^7.0.4"
+  },
+  "dependencies": {
+    "destyle.css": "^4.0.1"
   }
 }
