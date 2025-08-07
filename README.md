@@ -1,3 +1,7 @@
+### Code Stock
+
+https://a-ofuji-vista.github.io/code-stock/
+
 ### ローカルで開発を開始する
 
 - 前提条件としてNode.jsがインストールされていること
@@ -10,12 +14,4 @@ npm install
 
 ```bash
 npm run dev
-```
-
-### コミットテンプレートの使い方
-
-gitコマンドでテンプレートに設定します。
-
-```bash
-git config --local commit.template .commit_template
 ```
