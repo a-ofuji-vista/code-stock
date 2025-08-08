@@ -1,0 +1,22 @@
+.c-button-inversion {
+  display: grid;
+  justify-content: center;
+  padding: 24px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ff6900;
+  background-color: #fff;
+  border: 1px solid #ff6900;
+  border-radius: calc(infinity * 1px);
+}
+
+@media (any-hover: hover) {
+  .c-button-inversion {
+    transition: background-color 0.3s;
+  }
+
+  .c-button-inversion:hover {
+    color: #fff;
+    background-color: #ff6900;
+  }
+}

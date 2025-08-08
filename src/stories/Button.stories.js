@@ -1,36 +1,53 @@
-import round from "../code/hover/button/round/index.html?raw";
-import cssRound from "../code/hover/button/round/index.css?raw";
+import "destyle.css";
 
-import iconArrow from "../code/hover/button/icon-arrow/index.html?raw";
-import cssIconArrow from "../code/hover/button/icon-arrow/index.css?raw";
+import brightness from "../code/hover/button/brightness/index.html?raw";
+import cssBrightness from "../code/hover/button/brightness/index.css?raw";
+
+import inversion from "../code/hover/button/inversion/index.html?raw";
+import cssInversion from "../code/hover/button/inversion/index.css?raw";
+
+import gradation from "../code/hover/button/gradation/index.html?raw";
+import cssGradation from "../code/hover/button/gradation/index.css?raw";
 
 export default {
   title: "Hover/Button",
 };
 
-export const Round = {
+export const Brightness = {
   render: () => `
-    <style>${cssRound}</style>
-    ${round}
+    <style>${cssBrightness}</style>
+    ${brightness}
   `,
   parameters: {
     sourceCode: [
-      { name: "HTML", code: round },
-      { name: "CSS", code: cssRound },
+      { name: "HTML", code: brightness },
+      { name: "CSS", code: cssBrightness },
     ],
   },
 };
 
-export const IconArrow = {
+export const Inversion = {
   render: () => `
-    <style>${cssIconArrow}</style>
-    ${iconArrow}
+    <style>${cssInversion}</style>
+    ${inversion}
   `,
   parameters: {
     sourceCode: [
-      { name: "HTML", code: iconArrow },
-      { name: "CSS", code: cssIconArrow },
+      { name: "HTML", code: inversion },
+      { name: "CSS", code: cssInversion },
     ],
   },
 };
 
+export const Gradation = {
+  render: () => `
+    <style>${cssGradation}</style>
+    ${gradation}
+  `,
+  parameters: {
+    sourceCode: [
+      { name: "HTML", code: gradation },
+      { name: "CSS", code: cssGradation },
+    ],
+  },
+};

@@ -1,0 +1,95 @@
+.c-card-zoom {
+  display: block;
+  height: 100%;
+  padding: 24px;
+  background-color: #fff;
+}
+
+.c-card-zoom__link {
+}
+
+.c-card-zoom__amount {
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.c-card-zoom__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.c-card-zoom__wrap {
+}
+
+.c-card-zoom__title {
+  margin-top: 14px;
+  font-weight: 700;
+}
+
+.c-card-zoom__text {
+  margin-top: 12px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.c-card-zoom__schedule {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.c-card-zoom__buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.c-card-zoom__button {
+}
+
+.c-card-zoom__button-link {
+  display: grid;
+  justify-content: center;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: calc(infinity * 1px);
+}
+
+.c-card-zoom__button.--detail .c-card-zoom__button-link {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #cad5e2;
+}
+
+.c-card-zoom__button.--reservation .c-card-zoom__button-link {
+  color: #fff;
+  background-color: #ff6900;
+  border: 1px solid #ff6900;
+}
+
+@media (any-hover: hover) {
+  .c-card-zoom__image {
+    transition: scale 0.3s;
+  }
+  .c-card-zoom__link:hover .c-card-zoom__image {
+    scale: 1.05;
+  }
+
+  .c-card-zoom__button.--detail .c-card-zoom__button-link {
+    transition: color 0.3s;
+  }
+  .c-card-zoom__button.--reservation .c-card-zoom__button-link {
+    transition: filter 0.3s;
+  }
+  .c-card-zoom__button.--detail .c-card-zoom__button-link:hover {
+    color: #ff6900;
+  }
+  .c-card-zoom__button.--reservation .c-card-zoom__button-link:hover {
+    filter: brightness(1.25);
+  }
+}
