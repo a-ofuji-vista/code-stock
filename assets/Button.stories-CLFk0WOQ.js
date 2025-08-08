@@ -25,44 +25,46 @@ const e=`<a href="#" class="buttonRound">テキスト</a>
     background-color: #54802f;
   }
 }
-`,r=`<a href="#" class="buttonIconText02 buttonIconText02__reverse">
-  <span class="buttonIconText02_icon">
-    <svg
-      class="iconArrowRight"
-      width="32"
-      height="32"
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M10 6L15.2929 11.2929C15.6834 11.6834 15.6834 12.3166 15.2929 12.7071L10 18"
-        stroke="#ffffff"
-        stroke-linecap="round"
-      />
-    </svg>
-  </span>
-  <span class="buttonIconText02_text">詳しく見る</span>
-</a>
-<a href="#" class="buttonIconText02">
-  <span class="buttonIconText02_icon buttonIconText02_icon__left">
-    <svg
-      class="iconArrowLeft"
-      width="32"
-      height="32"
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M10 6L15.2929 11.2929C15.6834 11.6834 15.6834 12.3166 15.2929 12.7071L10 18"
-        stroke="#ffffff"
-        stroke-linecap="round"
-      />
-    </svg>
-  </span>
-  <span class="buttonIconText02_text">戻る</span>
-</a>
+`,r=`<div class="buttonList">
+  <a href="#" class="buttonIconText02 buttonIconText02__reverse">
+    <span class="buttonIconText02_icon">
+      <svg
+        class="iconArrowRight"
+        width="32"
+        height="32"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M10 6L15.2929 11.2929C15.6834 11.6834 15.6834 12.3166 15.2929 12.7071L10 18"
+          stroke="#ffffff"
+          stroke-linecap="round"
+        />
+      </svg>
+    </span>
+    <span class="buttonIconText02_text">詳しく見る</span>
+  </a>
+  <a href="#" class="buttonIconText02">
+    <span class="buttonIconText02_icon buttonIconText02_icon__left">
+      <svg
+        class="iconArrowLeft"
+        width="32"
+        height="32"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M10 6L15.2929 11.2929C15.6834 11.6834 15.6834 12.3166 15.2929 12.7071L10 18"
+          stroke="#ffffff"
+          stroke-linecap="round"
+        />
+      </svg>
+    </span>
+    <span class="buttonIconText02_text">戻る</span>
+  </a>
+</div>
 `,s=`.buttonIconText02 {
   display: flex;
   gap: 8px;

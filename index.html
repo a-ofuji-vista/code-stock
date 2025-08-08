@@ -54,6 +54,7 @@
   [id^="tabbutton-storybook-interactions-panel"] {
     display: none !important;
   }
+
   /* Interactionsパネルを非表示 */
   div:has(> .css-49woof) {
     display: none !important;
@@ -62,6 +63,17 @@
   /* Source Codeパネルを表示 */
   div:has(> .css-13o7eu2) {
     display: block !important;
+  }
+
+  /* Source Codeパネルの下層タブ分空ける */
+  .css-1bdj47z {
+    top: 40px !important;
+  }
+
+  /* Source Codeパネルの下層タブを固定 */
+  .css-1qipi87 {
+    position: fixed !important;
+    z-index: 1 !important;
   }
 </style>
  
