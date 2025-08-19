@@ -1,21 +1,21 @@
 import "destyle.css";
 
-import zoom from "../code/hover/card/zoom/index.html?raw";
-import cssZoom from "../code/hover/card/zoom/index.css?raw";
+import event from "../code/hover/card/event/index.html?raw";
+import cssEvent from "../code/hover/card/event/index.css?raw";
 
 export default {
   title: "Hover/Card",
 };
 
-export const Zoom = {
+export const Event = {
   render: () => `
-    <style>${cssZoom}</style>
-    ${zoom}
+    <style>${cssEvent}</style>
+    ${event}
   `,
   parameters: {
     sourceCode: [
-      { name: "HTML", code: zoom },
-      { name: "CSS", code: cssZoom },
+      { name: "HTML", code: event },
+      { name: "CSS", code: cssEvent },
     ],
   },
 };

@@ -25,6 +25,7 @@
     "vite": "^7.0.4"
   },
   "dependencies": {
+    "@splidejs/splide": "^4.1.4",
     "destyle.css": "^4.0.1"
   }
 }

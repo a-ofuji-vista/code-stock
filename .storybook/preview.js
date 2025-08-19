@@ -3,6 +3,7 @@ import '../src/code/tailwind.css';
 
 const preview = {
   parameters: {
+    layout: 'fullscreen',
     controls: {
       disable: true,
     },
